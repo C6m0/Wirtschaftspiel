@@ -11,6 +11,8 @@ public class ereigniskarten
     static int anzahlEreignisse = ereignissTexte.length;
     public static void ereigniskartenMain()
     {
+        //TODO: Angeben beim Zufall um wie viel die Werte geändert wurden
+
         double wahrscheinlichkeitFuerEreigniss = Math.random();
         //Ueberprueft ob ein Ereigniss eintritt
         if(wahrscheinlichkeitFuerEreigniss <= 0.33)

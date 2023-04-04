@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7be09e24-f1fe-42ea-a9a9-d8984f098624" name="Changes" comment="spiel änderung">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wirtschaftspiel/spiel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wirtschaftspiel/spiel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spiel.java" beforeDir="false" afterPath="$PROJECT_DIR$/spiel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680537524797</updated>
-      <workItem from="1680603035567" duration="3839000" />
+      <workItem from="1680603035567" duration="5021000" />
     </task>
     <task id="LOCAL-00001" summary="Spiel anpassung">
       <created>1680545733145</created>
@@ -63,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680605785527</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="spiel änderung">
+      <created>1680606991741</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680606991741</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

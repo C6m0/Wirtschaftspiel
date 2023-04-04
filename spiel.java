@@ -27,6 +27,7 @@ public class spiel{
         int spielerAnzahl = scan1.nextInt();
         spielerListe =  new Spieler[spielerAnzahl];
         produktionsZahlen = new int[spielerAnzahl];
+        verkaufspreise = new int[spielerAnzahl];
         for(int i = 0; i < spielerListe.length;i++)
         {
             System.out.println("Hallo Spieler " + (i+1) + ", wie lautet dein Spielername?");
@@ -44,7 +45,7 @@ public class spiel{
         //Sammelt alle produktionsmengen
         for(int i = 0; i < produktionsZahlen.length;i++)
         {
-            System.out.println("Hallo " + spielerListe[i] + " wie viel willst du produzieren?");
+            System.out.println("Hallo " + spielerListe[i].name + " wie viel willst du produzieren?");
             Scanner scan3 = new Scanner(System.in);
             int produktionsmenge = scan3.nextInt();
             produktionsZahlen[i] = produktionsmenge;
@@ -62,7 +63,7 @@ public class spiel{
             if(spielerListe[i].konto - preis >= 0)
             {
                 spielerListe[i].konto = spielerListe[i].konto - preis;
-                System.out.println("Es wurden erfolgreich " + produktionsZahlen[i] + " Einheiten produziert");
+                System.out.println(spielerListe[i].name + " es wurden erfolgreich " + produktionsZahlen[i] + " Einheiten produziert");
             }
             else
             {
